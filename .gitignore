@@ -1,0 +1,9 @@
+# executables
+*.exe 
+*/*.exe
+*/*/*.exe
+
+# cache files
+*/cache
+*/*/cache
+cache
