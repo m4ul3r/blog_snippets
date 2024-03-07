@@ -29,7 +29,7 @@ proc main() =
     errCode = false; goto endProgram
   
   label endProgram:
-    ExitProcess(cast[byte](errCode))
+    ExitProcess(cast[UINT](errCode))
 
 when isMainModule:
   main()
